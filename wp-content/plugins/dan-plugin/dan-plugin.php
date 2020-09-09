@@ -68,6 +68,7 @@ class DanPlugin {
 	public function settings_link($links) {
 		$settings_link = '<a href="options-general.php?page=dan_plugin">Settings</a>';
 		array_push( $links, $settings_link);
+		return $links;
 	}
 
 	public function add_admin_pages() {
