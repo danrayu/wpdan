@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="wpdan.l" id="378ae21f-44ec-4015-939f-55af56f41c60" name="wpdan.l" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1hDXMnhIXXLhds2MxAdFxgIC8OS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins/akismet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="" />
+      <created>1599546592018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599546592018</updated>
+      <workItem from="1599546593493" duration="6232000" />
+      <workItem from="1599557047356" duration="3422000" />
+      <workItem from="1599565368006" duration="4906000" />
+      <workItem from="1599578178462" duration="1256000" />
+      <workItem from="1599635075085" duration="1225000" />
+      <workItem from="1599638774702" duration="4635000" />
+      <workItem from="1599643421557" duration="418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects" timestamp="1599570456520">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects/0.0.1920.1044@0.0.1920.1044" timestamp="1599570456520" />
+    <state x="786" y="448" width="338" height="146" key="#WordPress" timestamp="1599635114022">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="786" y="448" width="338" height="146" key="#WordPress/0.0.1920.1044@0.0.1920.1044" timestamp="1599635114022" />
+    <state x="187" y="90" key="DiffContextDialog" timestamp="1599643458269">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="187" y="90" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599643458269" />
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1599579517617">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517617" />
+    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1599579517617">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517617" />
+    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1599579517617">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517617" />
+    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1599579517617">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517617" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.2.bottom" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.2.center" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.center/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.2.left" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.left/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state width="1874" height="340" key="GridCell.Tab.2.right" timestamp="1599579517618">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.2.right/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599569778291">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599569778291" />
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599643459828">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599643459828" />
+    <state x="195" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1599553057715">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="195" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599553057715" />
+  </component>
+</project>
