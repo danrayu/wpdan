@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="" />
+    <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +12,25 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dan &lt;dan.rayu@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
   </component>
   <component name="PhpServers">
     <servers>
@@ -26,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,6 +53,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,12 +77,25 @@
       <workItem from="1599578178462" duration="1256000" />
       <workItem from="1599635075085" duration="1225000" />
       <workItem from="1599638774702" duration="4635000" />
-      <workItem from="1599643421557" duration="418000" />
+      <workItem from="1599643421557" duration="1020000" />
+      <workItem from="1599644450209" duration="189000" />
     </task>
+    <task id="LOCAL-00001" summary="adding .idea">
+      <created>1599644092154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599644092154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding .idea" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects" timestamp="1599570456520">
@@ -73,10 +106,18 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="786" y="448" width="338" height="146" key="#WordPress/0.0.1920.1044@0.0.1920.1044" timestamp="1599635114022" />
+    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1599644092080">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599644092080" />
     <state x="187" y="90" key="DiffContextDialog" timestamp="1599643458269">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="187" y="90" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599643458269" />
+    <state x="747" y="265" key="FileChooserDialogImpl" timestamp="1599644407293">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="747" y="265" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1599644407293" />
     <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1599579517617">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -129,13 +170,24 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599569778291" />
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599643459828">
+    <state x="461" y="157" key="SettingsEditor" timestamp="1599644632974">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599643459828" />
+    <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1599644632974" />
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599644097919">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599644097919" />
+    <state x="768" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599644044888">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="768" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599644044888" />
     <state x="195" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1599553057715">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="195" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1599553057715" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$</wordpressPath>
   </component>
 </project>
