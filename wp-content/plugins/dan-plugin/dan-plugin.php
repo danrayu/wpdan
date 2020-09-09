@@ -50,7 +50,7 @@ class DanPlugin {
 
 		add_action('admin_menu', [$this, 'add_admin_pages']);
 
-		add_filter("plugin_action_link_$this->pluginName", [$this, 'settings_link']);
+		add_filter("plugin_action_links_$this->pluginName", [$this, 'settings_link']);
 	}
 
 	static function custom_post_type() {
@@ -66,7 +66,7 @@ class DanPlugin {
 	}
 
 	public function settings_link($links) {
-		$settings_link = '<a href="options-general.php?page=dan_plugin">Settings</a>';
+		$settings_link = '<a href="admin.php?page=dan_plugin">Settings</a>';
 		array_push( $links, $settings_link);
 		return $links;
 	}
