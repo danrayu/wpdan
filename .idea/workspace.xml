@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-deactivate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,9 @@
     </servers>
   </component>
   <component name="ProjectId" id="1hDXMnhIXXLhds2MxAdFxgIC8OS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,6 +85,7 @@
       <workItem from="1599638774702" duration="4635000" />
       <workItem from="1599643421557" duration="1020000" />
       <workItem from="1599644450209" duration="189000" />
+      <workItem from="1599649383981" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="adding .idea">
       <created>1599644092154</created>
@@ -166,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.2.right/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599569778291">
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599649747496">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599569778291" />
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599649747496" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1599644632974">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

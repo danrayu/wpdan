@@ -37,15 +37,6 @@ class DanPlugin
     add_action('init', [$this, 'custom_post_type']);
   }
 
-  function activate() {
-    $this->custom_post_type();
-    flush_rewrite_rules();
-  }
-
-  function deactivate() {
-    flush_rewrite_rules();
-  }
-
   function custom_post_type() {
     register_post_type('book', ['labels' => ['name' => __('Books'),
       'singular_name' => __( 'Book' )], 'public' => true,
@@ -67,7 +58,9 @@ if (class_exists('DanPlugin')) {
   $danPlugin->register();
 }
 
-register_activation_hook( __FILE__, [$danPlugin, 'activate']);
+require_once plugin_dir_path( __FILE__) . 'inc/dan-plugin-activate.php';
+register_activation_hook( __FILE__, ['DanPluginActivate', 'activate']);
 
-register_deactivation_hook( __FILE__, [$danPlugin, 'deactivate']);
+require_once plugin_dir_path( __FILE__) . 'inc/dan-plugin-deactivate.php';
+register_deactivation_hook( __FILE__, ['DanPluginDeactivate', 'deactivate']);
 
