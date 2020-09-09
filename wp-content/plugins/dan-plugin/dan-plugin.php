@@ -31,36 +31,31 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 Copyright 2005-2015 Automattic, Inc.
 */
 
-class DanPlugin
-{
-  function __construct() {
-    add_action('init', [$this, 'custom_post_type']);
-  }
+class DanPlugin {
 
-  function custom_post_type() {
-    register_post_type('book', ['labels' => ['name' => __('Books'),
-      'singular_name' => __( 'Book' )], 'public' => true,
-      'has_archive' => false, 'rewrite' => ['slug' => 'book'],
-    ]);
-  }
+	function __construct() {
 
-  function register() {
-    add_action('admin_enqueue_scripts', [$this, 'enqueue']);
-  }
+	}
 
-  function enqueue() {
-    wp_enqueue_style('dan-plugin', plugins_url('/assets/dan-plugin.css', __FILE__));
-  }
+	function register() {
+		add_action( 'admin_enqueue_scripts', [ $this, 'enqueue' ] );
+	}
+
+	function enqueue() {
+		wp_enqueue_style( 'dan-plugin', plugins_url( '/assets/dan-plugin.css', __FILE__ ) );
+	}
+
 }
 
-if (class_exists('DanPlugin')) {
-  $danPlugin = new DanPlugin();
-  $danPlugin->register();
+if ( class_exists( 'DanPlugin' ) ) {
+	$danPlugin = new DanPlugin();
+	$danPlugin->register();
 }
+DanPluginCPT::class;
 
-require_once plugin_dir_path( __FILE__) . 'inc/dan-plugin-activate.php';
-register_activation_hook( __FILE__, ['DanPluginActivate', 'activate']);
+require_once plugin_dir_path( __FILE__ ) . 'inc/dan-plugin-activate.php';
+register_activation_hook( __FILE__, [ 'DanPluginActivate', 'activate' ] );
 
-require_once plugin_dir_path( __FILE__) . 'inc/dan-plugin-deactivate.php';
-register_deactivation_hook( __FILE__, ['DanPluginDeactivate', 'deactivate']);
+require_once plugin_dir_path( __FILE__ ) . 'inc/dan-plugin-deactivate.php';
+register_deactivation_hook( __FILE__, [ 'DanPluginDeactivate', 'deactivate' ] );
 

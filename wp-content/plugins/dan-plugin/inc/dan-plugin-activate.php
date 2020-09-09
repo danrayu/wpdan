@@ -3,9 +3,10 @@
  * @package DanPlugin
  **/
 
-class DanPluginActivate
-{
+class DanPluginActivate {
+
 	public static function activate() {
 		flush_rewrite_rules();
 	}
+
 }

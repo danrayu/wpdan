@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-deactivate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-custom-post-type.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +85,7 @@
       <workItem from="1599638774702" duration="4635000" />
       <workItem from="1599643421557" duration="1020000" />
       <workItem from="1599644450209" duration="189000" />
-      <workItem from="1599649383981" duration="657000" />
+      <workItem from="1599649383981" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="adding .idea">
       <created>1599644092154</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599644092154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="plugin added inc with separate activate and deactivate.">
+      <created>1599650309803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599650309803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding .idea" />
+    <MESSAGE value="plugin added inc with separate activate and deactivate." />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin added inc with separate activate and deactivate." />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects" timestamp="1599570456520">
@@ -113,10 +121,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="786" y="448" width="338" height="146" key="#WordPress/0.0.1920.1044@0.0.1920.1044" timestamp="1599635114022" />
-    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1599644092080">
+    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1599650309497">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599644092080" />
+    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599650309497" />
     <state x="187" y="90" key="DiffContextDialog" timestamp="1599643458269">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -173,18 +181,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.2.right/0.0.1920.1044@0.0.1920.1044" timestamp="1599579517618" />
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599649747496">
+    <state x="689" y="243" key="NewPhpClassDialog" timestamp="1599650355961">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599649747496" />
-    <state x="461" y="157" key="SettingsEditor" timestamp="1599644632974">
+    <state x="689" y="243" key="NewPhpClassDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599650355961" />
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599650388452">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1599644632974" />
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599644097919">
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599650388452" />
+    <state x="461" y="157" key="SettingsEditor" timestamp="1599650639374">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599644097919" />
+    <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1599650639374" />
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599650312084">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599650312084" />
     <state x="768" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599644044888">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
