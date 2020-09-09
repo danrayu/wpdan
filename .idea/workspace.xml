@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-custom-post-type.php" afterDir="false" />
+    <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="plugin added to inc with separate declaration of CPT">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/templates/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-custom-post-type.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1599638774702" duration="4635000" />
       <workItem from="1599643421557" duration="1020000" />
       <workItem from="1599644450209" duration="189000" />
-      <workItem from="1599649383981" duration="1379000" />
+      <workItem from="1599649383981" duration="5521000" />
     </task>
     <task id="LOCAL-00001" summary="adding .idea">
       <created>1599644092154</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599650309803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="plugin added to inc with separate declaration of CPT">
+      <created>1599650784404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599650784404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding .idea" />
     <MESSAGE value="plugin added inc with separate activate and deactivate." />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin added inc with separate activate and deactivate." />
+    <MESSAGE value="plugin added to inc with separate declaration of CPT" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin added to inc with separate declaration of CPT" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects" timestamp="1599570456520">
@@ -121,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="786" y="448" width="338" height="146" key="#WordPress/0.0.1920.1044@0.0.1920.1044" timestamp="1599635114022" />
-    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1599650309497">
+    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1599654613581">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599650309497" />
+    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599654613581" />
     <state x="187" y="90" key="DiffContextDialog" timestamp="1599643458269">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -185,18 +193,18 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="689" y="243" key="NewPhpClassDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599650355961" />
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599650388452">
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599653456363">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599650388452" />
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599653456363" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1599650639374">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1599650639374" />
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599650312084">
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599650787609">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599650312084" />
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599650787609" />
     <state x="768" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599644044888">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

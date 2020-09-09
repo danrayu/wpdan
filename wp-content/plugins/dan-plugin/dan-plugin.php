@@ -33,12 +33,49 @@ Copyright 2005-2015 Automattic, Inc.
 
 class DanPlugin {
 
+	public $pluginName;
+
 	function __construct() {
+		add_action('init', [$this, 'custom_post_type']);
+
+		$this->pluginName = plugin_basename(__FILE__);
+	}
+
+	function activate() {
 
 	}
 
 	function register() {
 		add_action( 'admin_enqueue_scripts', [ $this, 'enqueue' ] );
+
+		add_action('admin_menu', [$this, 'add_admin_pages']);
+
+		add_filter("plugin_action_link_$this->pluginName", [$this, 'settings_link']);
+	}
+
+	static function custom_post_type() {
+		register_post_type( 'book', [
+			'labels'      => [
+				'name'          => __( 'Books' ),
+				'singular_name' => __( 'Book' ),
+			],
+			'public'      => TRUE,
+			'has_archive' => FALSE,
+			'rewrite'     => [ 'slug' => 'book' ],
+		] );
+	}
+
+	public function settings_link($links) {
+		$settings_link = '<a href="options-general.php?page=dan_plugin">Settings</a>';
+		array_push( $links, $settings_link);
+	}
+
+	public function add_admin_pages() {
+		add_menu_page( 'Dan Plugin', 'Dan', 'manage_options', 'dan_plugin', [$this, 'admin_index'], 'dashicons-admin-multisite', 541);
+	}
+
+	public function admin_index() {
+		require_once plugin_dir_path(__FILE__) . 'templates/page.php';
 	}
 
 	function enqueue() {
@@ -51,7 +88,6 @@ if ( class_exists( 'DanPlugin' ) ) {
 	$danPlugin = new DanPlugin();
 	$danPlugin->register();
 }
-DanPluginCPT::class;
 
 require_once plugin_dir_path( __FILE__ ) . 'inc/dan-plugin-activate.php';
 register_activation_hook( __FILE__, [ 'DanPluginActivate', 'activate' ] );
