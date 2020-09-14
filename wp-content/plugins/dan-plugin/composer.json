@@ -1,0 +1,17 @@
+{
+    "name": "dan/dan-plugin",
+    "description": "My package for learning php",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "dan",
+            "email": "dan.rayu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
