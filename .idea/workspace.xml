@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Base/Deactivate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Pages/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Base/Enqueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/PostType/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/dan-plugin-backup/dan-plugin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/dan-plugin-backup/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/dan-plugin-backup/uninstall.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Base/Activate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-deactivate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Pages/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Pages/Admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +93,7 @@
       <workItem from="1600062404779" duration="118000" />
       <workItem from="1600062555810" duration="3199000" />
       <workItem from="1600079282012" duration="1964000" />
+      <workItem from="1600160983779" duration="4912000" />
     </task>
     <task id="LOCAL-00001" summary="adding .idea">
       <created>1599644092154</created>
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599660556441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="plugin reorganised file system">
+      <created>1600161042761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600161042761</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +150,8 @@
     <MESSAGE value="plugin added admin menu" />
     <MESSAGE value="plugin added composer" />
     <MESSAGE value="plugin added composer for real" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin added composer for real" />
+    <MESSAGE value="plugin reorganised file system" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin reorganised file system" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects" timestamp="1599570456520">
@@ -156,10 +162,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="786" y="448" width="338" height="146" key="#WordPress/0.0.1920.1044@0.0.1920.1044" timestamp="1599635114022" />
-    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1599660556353">
+    <state x="483" y="171" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600163800897">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1599660556353" />
+    <state x="483" y="171" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600163800897" />
+    <state x="559" y="80" key="CommitChangelistDialog2" timestamp="1600161040701">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="559" y="80" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1600161040701" />
     <state x="187" y="90" key="DiffContextDialog" timestamp="1599643458269">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -220,18 +230,18 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="689" y="243" key="NewPhpClassDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600087352598" />
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599653456363">
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1600165773894">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599653456363" />
+    <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600165773894" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1599650639374">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="461" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1599650639374" />
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599660559104">
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1600161047447">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1599660559104" />
+    <state x="555" y="258" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1600161047447" />
     <state x="768" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599644044888">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

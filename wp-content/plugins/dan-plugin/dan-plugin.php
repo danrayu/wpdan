@@ -35,15 +35,21 @@ defined( 'ABSPATH') or die;
 if (file_exists(dirname(__FILE__). '/vendor/autoload.php')) {
 	require_once dirname(__FILE__). '/vendor/autoload.php';
 }
-use Inc\Base\Activate, Inc\Base\Deactivate;
+
+define('PLUGIN_PATH', plugin_dir_path(__FILE__));
+define('PLUGIN_URL', plugin_dir_url(__FILE__));
+
+Inc\init::register_service();
+
+
+/*
+use Inc\Base\Activate, Inc\Base\Deactivate, Inc\Pages\Admin;
 
 class DanPlugin {
 
 	public $pluginName;
 
 	function __construct() {
-		add_action('init', [$this, 'custom_post_type']);
-
 		$this->pluginName = plugin_basename(__FILE__);
 	}
 
@@ -56,24 +62,11 @@ class DanPlugin {
 	}
 
 	function register() {
-		add_action( 'admin_enqueue_scripts', [ $this, 'enqueue' ] );
 
-		add_action('admin_menu', [$this, 'add_admin_pages']);
 
 		add_filter("plugin_action_links_$this->pluginName", [$this, 'settings_link']);
 	}
 
-	static function custom_post_type() {
-		register_post_type( 'book', [
-			'labels'      => [
-				'name'          => __( 'Books' ),
-				'singular_name' => __( 'Book' ),
-			],
-			'public'      => TRUE,
-			'has_archive' => FALSE,
-			'rewrite'     => [ 'slug' => 'book' ],
-		] );
-	}
 
 	public function settings_link($links) {
 		$settings_link = '<a href="admin.php?page=dan_plugin">Settings</a>';
@@ -81,19 +74,14 @@ class DanPlugin {
 		return $links;
 	}
 
-	public function add_admin_pages() {
-		add_menu_page( 'Dan Plugin', 'Dan', 'manage_options', 'dan_plugin', [$this, 'admin_index'], 'dashicons-admin-multisite', 541);
-	}
-
-	public function admin_index() {
-		require_once plugin_dir_path(__FILE__) . 'templates/page.php';
-	}
 
 	function enqueue() {
 		wp_enqueue_style( 'dan-plugin', plugins_url( '/assets/dan-plugin.css', __FILE__ ) );
 	}
 
 }
+
+Pages\Admin::register();
 
 if ( class_exists( 'DanPlugin' ) ) {
 	$danPlugin = new DanPlugin();
@@ -103,4 +91,4 @@ if ( class_exists( 'DanPlugin' ) ) {
 register_activation_hook( __FILE__, [ $danPlugin, 'activate' ] );
 
 register_deactivation_hook( __FILE__, [ $danPlugin, 'deactivate' ] );
-
+*/
