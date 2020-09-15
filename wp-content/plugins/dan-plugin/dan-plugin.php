@@ -30,6 +30,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 Copyright 2005-2015 Automattic, Inc.
 */
+defined( 'ABSPATH') or die;
+
+if (file_exists(dirname(__FILE__). '/vendor/autoload.php')) {
+	require_once dirname(__FILE__). '/vendor/autoload.php';
+}
+use Inc\Base\Activate, Inc\Base\Deactivate;
 
 class DanPlugin {
 
@@ -42,7 +48,11 @@ class DanPlugin {
 	}
 
 	function activate() {
+		Activate::activate();
+	}
 
+	function deactivate() {
+		Deactivate::deactivate();
 	}
 
 	function register() {
@@ -90,9 +100,7 @@ if ( class_exists( 'DanPlugin' ) ) {
 	$danPlugin->register();
 }
 
-require_once plugin_dir_path( __FILE__ ) . 'inc/dan-plugin-activate.php';
-register_activation_hook( __FILE__, [ 'DanPluginActivate', 'activate' ] );
+register_activation_hook( __FILE__, [ $danPlugin, 'activate' ] );
 
-require_once plugin_dir_path( __FILE__ ) . 'inc/dan-plugin-deactivate.php';
-register_deactivation_hook( __FILE__, [ 'DanPluginDeactivate', 'deactivate' ] );
+register_deactivation_hook( __FILE__, [ $danPlugin, 'deactivate' ] );
 

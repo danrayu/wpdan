@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8706d259-9de7-48b4-b960-fd8cd3306b40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Base/Deactivate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Pages/Admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/dan-plugin-backup/dan-plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/dan-plugin-backup/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/dan-plugin-backup/uninstall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/dan-plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Base/Activate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/dan-plugin-deactivate.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +68,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/plugins/akismet" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins/dan-plugin/inc/Base" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins/akismet" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -134,7 +143,9 @@
     <MESSAGE value="plugin added inc with separate activate and deactivate." />
     <MESSAGE value="plugin added to inc with separate declaration of CPT" />
     <MESSAGE value="plugin added admin menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin added admin menu" />
+    <MESSAGE value="plugin added composer" />
+    <MESSAGE value="plugin added composer for real" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin added composer for real" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="375" width="1256" height="293" key="#SQL_Dialects" timestamp="1599570456520">
@@ -205,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="140" key="GridCell.Tab.2.right/0.0.1920.1044@0.0.1920.1044" timestamp="1600065051660" />
-    <state x="689" y="243" key="NewPhpClassDialog" timestamp="1599650355961">
+    <state x="689" y="243" key="NewPhpClassDialog" timestamp="1600087352598">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="689" y="243" key="NewPhpClassDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1599650355961" />
+    <state x="689" y="243" key="NewPhpClassDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1600087352598" />
     <state x="777" y="447" width="355" height="148" key="NewPhpFileDialog" timestamp="1599653456363">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
