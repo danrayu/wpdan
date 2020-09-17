@@ -32,14 +32,29 @@ Copyright 2005-2015 Automattic, Inc.
 */
 defined( 'ABSPATH') or die;
 
+use Inc\Base\Activate, Inc\Base\Deactivate;
+
 if (file_exists(dirname(__FILE__). '/vendor/autoload.php')) {
-	require_once dirname(__FILE__). '/vendor/autoload.php';
+	require_once dirname( __FILE__ ) . '/vendor/autoload.php';
 }
 
+function activate_dan_plugin() {
+	Activate::activate();
+}
+
+function deactivate_dan_plugin() {
+	Deactivate::deactivate();
+}
+
+register_activation_hook( __FILE__, 'activate_dan_plugin' );
+
+register_deactivation_hook( __FILE__, 'deactivate_dan_plugin' );
+
+define('PLUGIN_NAME', plugin_basename(__FILE__));
 define('PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('PLUGIN_URL', plugin_dir_url(__FILE__));
 
-Inc\init::register_service();
+Inc\Init::register_service();
 
 
 /*
@@ -74,10 +89,6 @@ class DanPlugin {
 		return $links;
 	}
 
-
-	function enqueue() {
-		wp_enqueue_style( 'dan-plugin', plugins_url( '/assets/dan-plugin.css', __FILE__ ) );
-	}
 
 }
 

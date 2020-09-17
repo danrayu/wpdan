@@ -18,4 +18,5 @@ final class Admin {
 	public function admin_index() {
 		require_once PLUGIN_PATH . 'templates/page.php';
 	}
+
 }
